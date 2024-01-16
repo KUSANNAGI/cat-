@@ -1,0 +1,69 @@
+[gd_scene load_steps=14 format=3 uid="uid://dfwhw32sdmbyw"]
+
+[ext_resource type="Script" path="res://脚本/node.cs" id="1_8v8yv"]
+[ext_resource type="Texture2D" uid="uid://2oqitvj1c0jm" path="res://cat1.png" id="2_2652n"]
+[ext_resource type="Script" path="res://脚本/Cat1.cs" id="3_oscj7"]
+[ext_resource type="Texture2D" uid="uid://dex7qudlugch7" path="res://dog1.png" id="4_6p1de"]
+[ext_resource type="Script" path="res://脚本/Dog1.cs" id="5_qe2f3"]
+[ext_resource type="Texture2D" uid="uid://5ask1py7wd6v" path="res://mouse1.png" id="6_c84p1"]
+[ext_resource type="Script" path="res://脚本/Mouse1.cs" id="7_hxdqu"]
+[ext_resource type="Script" path="res://脚本/Cat2.cs" id="8_su5cr"]
+[ext_resource type="Script" path="res://脚本/Cat3.cs" id="9_woqsm"]
+[ext_resource type="Script" path="res://脚本/Cat4.cs" id="10_t2px5"]
+[ext_resource type="Script" path="res://脚本/hide.cs" id="11_dndpa"]
+[ext_resource type="Script" path="res://脚本/time.cs" id="12_u808t"]
+[ext_resource type="Script" path="res://脚本/dogy.cs" id="13_nudda"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_8v8yv")
+
+[node name="Cat1" type="Sprite2D" parent="."]
+position = Vector2(732, 107)
+texture = ExtResource("2_2652n")
+script = ExtResource("3_oscj7")
+
+[node name="Dog1" type="Sprite2D" parent="."]
+position = Vector2(204, 190)
+texture = ExtResource("4_6p1de")
+script = ExtResource("5_qe2f3")
+
+[node name="Mouse1" type="Sprite2D" parent="."]
+position = Vector2(65, 63)
+texture = ExtResource("6_c84p1")
+script = ExtResource("7_hxdqu")
+
+[node name="Cat2" type="Sprite2D" parent="."]
+position = Vector2(763, 365)
+texture = ExtResource("2_2652n")
+script = ExtResource("8_su5cr")
+
+[node name="Cat3" type="Sprite2D" parent="."]
+position = Vector2(720, 523)
+texture = ExtResource("2_2652n")
+script = ExtResource("9_woqsm")
+
+[node name="Cat4" type="Sprite2D" parent="."]
+position = Vector2(788, 222)
+texture = ExtResource("2_2652n")
+script = ExtResource("10_t2px5")
+
+[node name="hide" type="RichTextLabel" parent="."]
+offset_left = 985.0
+offset_top = 9.0
+offset_right = 1150.0
+offset_bottom = 61.0
+script = ExtResource("11_dndpa")
+
+[node name="time" type="RichTextLabel" parent="."]
+offset_left = 924.0
+offset_top = 554.0
+offset_right = 1137.0
+offset_bottom = 623.0
+script = ExtResource("12_u808t")
+
+[node name="dogy" type="RichTextLabel" parent="."]
+offset_left = 59.0
+offset_top = 567.0
+offset_right = 223.0
+offset_bottom = 632.0
+script = ExtResource("13_nudda")

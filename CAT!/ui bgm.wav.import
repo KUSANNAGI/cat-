@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bshov66j4d1uj"
+path="res://.godot/imported/ui bgm.wav-801b1bf911ede990550c1266a9855ee4.sample"
+
+[deps]
+
+source_file="res://ui bgm.wav"
+dest_files=["res://.godot/imported/ui bgm.wav-801b1bf911ede990550c1266a9855ee4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
